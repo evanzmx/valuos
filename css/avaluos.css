@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'yanone_kaffeesatzbold';
+    src: url('../fonts/yanonekaffeesatz-bold-webfont.eot');
+    src: url('../fonts/yanonekaffeesatz-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yanonekaffeesatz-bold-webfont.woff') format('woff'),
+         url('../fonts/yanonekaffeesatz-bold-webfont.ttf') format('truetype'),
+         url('../fonts/yanonekaffeesatz-bold-webfont.svg#yanone_kaffeesatzbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../fonts/myriadpro-cond.eot');
+    src: url('../fonts/myriadpro-cond.eot') format('embedded-opentype'),
+         url('../fonts/myriadpro-cond.woff') format('woff'),
+         url('../fonts/myriadpro-cond.ttf') format('truetype'),
+         url('../fonts/myriadpro-cond.svg#MyriadProCondensed') format('svg');
+}
+
+
+@font-face {
+    font-family: 'lane_-_narrowregular';
+    src: url('../fonts/lanenar_-webfont.eot');
+    src: url('../fonts/lanenar_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lanenar_-webfont.woff') format('woff'),
+         url('../fonts/lanenar_-webfont.ttf') format('truetype'),
+         url('../fonts/lanenar_-webfont.svg#lane_-_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#main-header{display: block; height: 70px;}
+.navbar, #main-footer{background: #003263;}
+.navbar-nav{height: 70px; font-family: 'lane_-_narrowregular'; font-size: 20px; /*font-weight: bold;*/}
+.navbar-nav.navbar-right:last-child {margin-right: 0;}
+.navbar-nav li {height: 70px;}
+.navbar-nav li.active a, .navbar-nav li a:hover{background: #FFF !important; color: #003263 !important}
+.navbar-nav li a{color: #fff !important; padding:25px 15px;}
+#main-container{padding-bottom: 40px;}
+h1.sitetitle, span.sitetitle{color: #FFFFFF !important; font-family: 'yanone_kaffeesatzbold';font-size: 40px;margin: 10px;}
+div.img-slide img{width: 100%;}
+div.col-md-4{margin-top: 50px; text-align: center;}
+div.col-md-4 h2{font-family: 'lane_-_narrowregular'; text-align: center;}
+p.normaltext{font-family: 'MyriadProCondensed'; font-size: 18px; text-align: justify;}
+button.btn-custom-blue{background: #003263;color: #FFFFFF;float: right;font-family: lane_-_narrowregular;font-size: 20px;font-weight: 600;width: 120px;}
+button.btn-custom-blue:hover{background: #004382; color: #FFF !important;}
+p.copy{color: #FFF; font-family: 'lane_-_narrowregular'; margin: 10px 20px 20px;}
+.img_proyecto{width: 100%;}
+span.sitetitle{margin: 20px 20px 10px; position: relative; top: 10px;}
+#main-footer{color: #FFF;}
+#main-footer h2{text-align: left;}
