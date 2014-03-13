@@ -26,7 +26,6 @@
 		</header>
 		<section id="main-container" class="container">
 			<h2 class="pagetitle">¿Quienes somos?</h2>
-			<img class="squarebanner" src="img/banner.png" alt="Solicita un avaluo" title="Solicita un avaluo">
 			<p class="normaltext">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

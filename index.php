@@ -92,6 +92,16 @@
 				</div>
 			</div>
 		</section>
+		<footer id="main-footer">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<span class="sitetitle">Ávaluos</span>
+					<p class="copy">2014 Todos los derechos reservados.</p>
+					<p class="normaltext contactfooter"><b>Contacto:</b> <a href="mailto:info@avaluos.com">info@avaluos.com</a></a></p>
+				</div>
+			</div>
+		</footer>
+		<!--
 		<footer id="main-footer" class="">
 			<div class="row">
 				<div class="col-md-4">
@@ -114,6 +124,7 @@
 				</div>
 			</div>
 		</footer>
+		-->
 	</div>
 </body>
 </html>

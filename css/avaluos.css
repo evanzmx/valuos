@@ -47,8 +47,11 @@ div.col-md-4 h2{font-family: 'lane_-_narrowregular'; text-align: center;}
 p.normaltext{font-family: 'MyriadProCondensed'; font-size: 18px; text-align: justify;}
 button.btn-custom-blue{background: #003263;color: #FFFFFF;float: right;font-family: lane_-_narrowregular;font-size: 20px;font-weight: 600;width: 120px;}
 button.btn-custom-blue:hover{background: #004382; color: #FFF !important;}
-p.copy{color: #FFF; font-family: 'lane_-_narrowregular'; margin: 10px 20px 20px;}
+p.copy{color: #FFFFFF;float: left;font-family: 'lane_-_narrowregular';margin: 10px;}
 .img_proyecto{width: 100%;}
+.squarebanner{cursor: pointer;float: right; padding: 0 0 20px 40px;}
 span.sitetitle{margin: 20px 20px 10px; position: relative; top: 10px;}
-#main-footer{color: #FFF;}
+#main-footer{color: #FFF; overflow: hidden;}
 #main-footer h2{text-align: left;}
+#main-footer .sitetitle{float: left;font-size: 24px; margin: 0 0 0 25px; top: 0;}
+#main-footer .contactfooter{float: right;  margin: 8px 25px 0 0;}
