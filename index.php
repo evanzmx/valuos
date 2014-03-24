@@ -30,7 +30,7 @@
 				<img src="img/MAIN.jpg" alt="Avaluos">
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<img class="img-col-md-4" src="img/signo_pesos.png" alt="Avaluos">
 					<h2>Ávaluos</h2>
 					<p class="normaltext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -44,7 +44,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<img class="img-col-md-4" src="img/consultoria.png" alt="Consultoria">
 					<h2>Consultoria</h2>
 					<p class="normaltext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -59,7 +59,7 @@
 					Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<img class="img-col-md-4" src="img/contacto.png" alt="Contacto">
 					<h2>Contacto</h2>
 					<p class="normaltext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
