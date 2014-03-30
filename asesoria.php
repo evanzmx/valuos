@@ -16,11 +16,11 @@
 					<h1 class="navbar-brand sitetitle">Ávaluos</h1>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="nosotros.html">¿Quienes somos?</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li class="active"><a href="asesoria.html">Asesoria profesional</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="index.php">Inicio</a></li>
+					<li><a href="nosotros.php">¿Quienes somos?</a></li>
+					<li><a href="servicios.php">Servicios</a></li>
+					<li class="active"><a href="asesoria.php">Asesoria profesional</a></li>
+					<li><a href="contacto.php">Contacto</a></li>
 				</ul>
 			</nav>
 			<nav class="responsive-nav">
@@ -29,11 +29,11 @@
 				</div>
 				<span class="responsive-nav-button">Asesoria <span class="glyphicon glyphicon-list"></span> </span>
 				<ul class="responsive-nav-ul">
-					<li class="active"><a href="index.html">Inicio</a></li>
-					<li><a href="nosotros.html">¿Quienes somos?</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="asesoria.html">Asesoria profesional</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li class="active"><a href="index.php">Inicio</a></li>
+					<li><a href="nosotros.php">¿Quienes somos?</a></li>
+					<li><a href="servicios.php">Servicios</a></li>
+					<li><a href="asesoria.php">Asesoria profesional</a></li>
+					<li><a href="contacto.php">Contacto</a></li>
 				</ul>
 			</nav>
 		</header>
