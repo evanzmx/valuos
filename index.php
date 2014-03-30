@@ -5,8 +5,8 @@
 	<title>Emanuel Martinez Avaluos</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/avaluos.css">
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -17,11 +17,24 @@
 					<h1 class="navbar-brand sitetitle">Ávaluos</h1>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="/">Inicio</a></li>
-					<li><a href="nosotros.php">¿Quienes somos?</a></li>
-					<li><a href="servicios.php">Servicios</a></li>
-					<li><a href="asesoria.php">Asesoria profesional</a></li>
-					<li><a href="contacto.php">Contacto</a></li>
+					<li class="active"><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">¿Quienes somos?</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="asesoria.html">Asesoria profesional</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+			<nav class="responsive-nav">
+				<div class="navbar-container">
+					<h1 class="navbar-brand sitetitle">Ávaluos</h1>
+				</div>
+				<span class="responsive-nav-button">Inicio <span class="glyphicon glyphicon-list"></span> </span>
+				<ul class="responsive-nav-ul">
+					<li class="active"><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">¿Quienes somos?</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="asesoria.html">Asesoria profesional</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -30,7 +43,7 @@
 				<img src="img/MAIN.jpg" alt="Avaluos">
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="col-md-4">
 					<img class="img-col-md-4" src="img/signo_pesos.png" alt="Avaluos">
 					<h2>Ávaluos</h2>
 					<p class="normaltext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -44,7 +57,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="col-md-4">
 					<img class="img-col-md-4" src="img/consultoria.png" alt="Consultoria">
 					<h2>Consultoria</h2>
 					<p class="normaltext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -59,7 +72,7 @@
 					Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="col-md-4">
 					<img class="img-col-md-4" src="img/contacto.png" alt="Contacto">
 					<h2>Contacto</h2>
 					<p class="normaltext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -127,5 +140,22 @@
 		</footer>
 		-->
 	</div>
+	<script type="text/javascript">
+	$(function(){
+		$('span.responsive-nav-button').click(function(){
+			showMenu();
+		});
+	});
+
+	function showMenu(){
+		if($('ul.responsive-nav-ul').is(':visible')){
+			$('div.overlay-all').remove();
+			$('ul.responsive-nav-ul').slideUp(200);
+		}else{
+			$('body').append('<div class="overlay-all" onclick="showMenu()"></div>');
+			$('ul.responsive-nav-ul').slideDown(200);
+		}
+	}
+	</script>
 </body>
 </html>
