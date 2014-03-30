@@ -32,13 +32,40 @@
     font-style: normal;
 
 }
-#main-header{display: block; height: 70px;}
-.navbar, #main-footer{background: #003263;}
+#main-header{display: block; height: 70px; margin: 0 0 15px 0;}
+.navbar, #main-header, #main-footer{background: #003263;}
 .navbar-nav{height: 70px; font-family: 'lane_-_narrowregular'; font-size: 20px; /*font-weight: bold;*/}
 .navbar-nav.navbar-right:last-child {margin-right: 0;}
 .navbar-nav li {height: 70px;}
 .navbar-nav li.active a, .navbar-nav li a:hover{background: #FFF !important; color: #003263 !important}
 .navbar-nav li a{color: #fff !important; padding:25px 15px;}
+.responsive-nav{display: none;}
+.responsive-nav-ul{display: none;}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav{font-size: 15px !important;}
+}
+@media screen and (max-width: 767px){
+    .navbar{display: none;}
+    .responsive-nav{font-family: 'lane_-_narrowregular'; display: block;}
+    .responsive-nav-button{
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        float: right;
+        font-size: 30px;
+        height: 70px;
+        padding: 18px;
+        width: 50%;
+    }
+    .glyphicon-list{ float: right; margin-top: 4px; }
+    .responsive-nav-ul{background:#FFFFFF; font-size: 30px; line-height: 2.5em; padding: 0 0 0 15px; position: fixed; right: 0; top: 70px; width: 50%; z-index: 50;}
+    .responsive-nav-ul li{display: block;}
+    .responsive-nav-ul li a{color: #003263;}
+}
 #main-container{padding-bottom: 40px;}
 h1.sitetitle, span.sitetitle{color: #FFFFFF !important; font-family: 'yanone_kaffeesatzbold';font-size: 40px;margin: 10px;}
 h2.pagetitle{font-size: 30px;}
@@ -61,3 +88,4 @@ img.left-side{float: left; margin: 10px 25px 10px 0;}
 #main-footer .sitetitle{float: left;font-size: 24px; margin: 0 0 0 25px; top: 0;}
 #main-footer .contactfooter{float: right;  margin: 8px 25px 0 0;}
 .fix-footer{position: absolute; bottom: 0; width: 100%;}
+.overlay-all{float: left; height: 200%; position: absolute; top: 0; width: 200%; z-index: 40;}

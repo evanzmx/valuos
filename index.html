@@ -5,8 +5,8 @@
 	<title>Emanuel Martinez Avaluos</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/avaluos.css">
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -17,6 +17,19 @@
 					<h1 class="navbar-brand sitetitle">Ávaluos</h1>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">¿Quienes somos?</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="asesoria.html">Asesoria profesional</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+			<nav class="responsive-nav">
+				<div class="navbar-container">
+					<h1 class="navbar-brand sitetitle">Ávaluos</h1>
+				</div>
+				<span class="responsive-nav-button">Inicio <span class="glyphicon glyphicon-list"></span> </span>
+				<ul class="responsive-nav-ul">
 					<li class="active"><a href="index.html">Inicio</a></li>
 					<li><a href="nosotros.html">¿Quienes somos?</a></li>
 					<li><a href="servicios.html">Servicios</a></li>
@@ -127,5 +140,22 @@
 		</footer>
 		-->
 	</div>
+	<script type="text/javascript">
+	$(function(){
+		$('span.responsive-nav-button').click(function(){
+			showMenu();
+		});
+	});
+
+	function showMenu(){
+		if($('ul.responsive-nav-ul').is(':visible')){
+			$('div.overlay-all').remove();
+			$('ul.responsive-nav-ul').slideUp(200);
+		}else{
+			$('body').append('<div class="overlay-all" onclick="showMenu()"></div>');
+			$('ul.responsive-nav-ul').slideDown(200);
+		}
+	}
+	</script>
 </body>
 </html>
