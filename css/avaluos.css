@@ -41,6 +41,7 @@
 .navbar-nav li a{color: #fff !important; padding:25px 15px;}
 #main-container{padding-bottom: 40px;}
 h1.sitetitle, span.sitetitle{color: #FFFFFF !important; font-family: 'yanone_kaffeesatzbold';font-size: 40px;margin: 10px;}
+h2.pagetitle{font-size: 30px;}
 div.img-slide img{width: 100%;}
 div.col-md-4{margin-top: 50px; text-align: center;}
 div.col-md-4 h2{font-family: 'lane_-_narrowregular'; text-align: center;}
@@ -51,7 +52,12 @@ p.copy{color: #FFFFFF;float: left;font-family: 'lane_-_narrowregular';margin: 10
 .img_proyecto{width: 100%;}
 .squarebanner{cursor: pointer;float: right; padding: 0 0 20px 40px;}
 span.sitetitle{margin: 20px 20px 10px; position: relative; top: 10px;}
+img.left-side{float: left; margin: 10px 25px 10px 0;}
+.full-img{float: left; margin: 25px 0; width: 100%;}
+.service-box{margin: auto;}
+#banner-fade{clear: left; margin: auto; top:20px;}
 #main-footer{color: #FFF; overflow: hidden;}
 #main-footer h2{text-align: left;}
 #main-footer .sitetitle{float: left;font-size: 24px; margin: 0 0 0 25px; top: 0;}
 #main-footer .contactfooter{float: right;  margin: 8px 25px 0 0;}
+.fix-footer{position: absolute; bottom: 0; width: 100%;}
