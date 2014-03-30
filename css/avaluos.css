@@ -41,9 +41,11 @@
 .navbar-nav li a{color: #fff !important; padding:25px 15px;}
 .responsive-nav{display: none;}
 .responsive-nav-ul{display: none;}
+/*medium screen size*/
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-nav{font-size: 15px !important;}
 }
+/*small screen size*/
 @media screen and (max-width: 767px){
     .navbar{display: none;}
     .responsive-nav{font-family: 'lane_-_narrowregular'; display: block;}
